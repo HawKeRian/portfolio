@@ -11,7 +11,7 @@ export default function Profile(){
             </div>
             <div className={styles.card}>
                 <div className={styles.card_header}></div>
-                <div className={styles.card_body}>
+                <div className={styles.profile}>
                     <div>
                         <Image src={"/images/rin_huh.jpg"} width={360} height={100} alt="logo" />
                     </div>

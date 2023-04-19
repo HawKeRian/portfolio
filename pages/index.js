@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Profile from './contents/profile'
 import Education from './contents/education'
+import Skill from './contents/skill'
+import Experience from './contents/experience'
+import Leisure from './contents/leisure'
+import Contact from './contents/contact'
+
 import styles from '@/styles/Home.module.css'
 
 export default function Home() {
@@ -20,24 +25,16 @@ export default function Home() {
         <Education></Education>
 
         {/* Div for Skill */}
-        <div className={styles.content} id='skill'>
-          <h2 className={styles.title}>Skill</h2>
-        </div>
+        <Skill></Skill>
 
         {/* Div for Experience */}
-        <div className={styles.content} id='experience'>
-          <h2 className={styles.title}>Experience</h2>
-        </div>
+        <Experience></Experience>
 
-        {/* Div for Experience */}
-        <div className={styles.content} id='leisure'>
-          <h2 className={styles.title}>Leisure Activity & Hobby</h2>
-        </div>
+        {/* Div for Leisure */}
+        <Leisure></Leisure>
 
         {/* Div for Contact */}
-        <div className={styles.content} id='contact'>
-          <h2 className={styles.title}>Contact Me</h2>
-        </div>
+        <Contact></Contact>
 
       </div>
     </>
