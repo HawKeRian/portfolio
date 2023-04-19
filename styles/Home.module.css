@@ -16,7 +16,7 @@
 
 .card {
     @apply bg-gradient-to-tl from-slate-300;
-    @apply rounded-lg m-12 shadow-lg;
+    @apply rounded-lg m-12 shadow-lg mb-36;
 }
 
 .card_header{
@@ -25,10 +25,15 @@
 }
 
 .card_body{
-    @apply flex flex-row justify-start gap-10 p-12
+    @apply flex flex-row justify-start gap-10 p-12;
+    @apply items-center
 }
 
 .detail{
     @apply text-xl;
     @apply py-2 flex flex-row gap-16;
+}
+
+.education{
+    @apply flex flex-col  gap-10 p-12;
 }

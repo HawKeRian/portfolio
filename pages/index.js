@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Profile from './contents/profile'
+import Education from './contents/education'
 import styles from '@/styles/Home.module.css'
 
 export default function Home() {
@@ -17,9 +17,7 @@ export default function Home() {
         <Profile></Profile>
 
         {/* Div for Education */}
-        <div className={styles.content} id='education'>
-          <h2 className={styles.title}>Education</h2>
-        </div>
+        <Education></Education>
 
         {/* Div for Skill */}
         <div className={styles.content} id='skill'>
