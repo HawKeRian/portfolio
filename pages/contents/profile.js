@@ -50,7 +50,7 @@ export default function Profile(){
                         <div className={styles.detail}>
                             <div>
                                 <label>Address: </label>
-                                <span>148/21 Singhawattana Road, Thani District, Amphur Muang, Sukhothai. 64000</span>
+                                <span>Amphur Muang, Sukhothai</span>
                             </div>
                         </div>
 
