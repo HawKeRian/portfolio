@@ -11,13 +11,13 @@ export default function Education(){
             <div className={styles.card}>
                 <div className={styles.education}>
                     <div>
-                        <h3 className='text-xl'>2012-2018 </h3>
+                        <h3 className='text-xl'>2012 - 2018 </h3>
                         <li>Sci-Math Section, Special Class "Gifted Program" at Sukhothaiwittayakom School, Sukhothai</li>
                     </div>
 
                     <div>
-                        <h3 className='text-xl'>2018-2022 </h3>
-                        <li>Department of Computer Engieneering, Faculty of Engineering at Chaing Mai University</li>
+                        <h3 className='text-xl'>2018 - 2022 </h3>
+                        <li>Department of Computer Engineering, Faculty of Engineering at Chaing Mai University</li>
                     </div>
                 </div>
             </div>

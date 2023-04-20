@@ -10,7 +10,13 @@ export default function Contact(){
             </div>
             <div className={styles.card}>
                 <div className={styles.contact}>
-                    
+                    <div>
+                        <li>Email : pongthorn.s1999@gmail.com</li>
+                        <li>Facebook : Nong Pongthorn</li>
+                        <li>Line: nongza235</li>
+                        <li>Linkedin: Pongthorn Sitthipongsathorn</li>
+                        <li>Github: HawKeRian</li>
+                    </div>
                 </div>
             </div>
         </div>

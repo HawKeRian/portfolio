@@ -11,18 +11,37 @@ export default function Skill(){
             <div className={styles.card}>
                 <div className={styles.skill}>
                     <div>
-                        <li>PHP</li>
+                        <h2>Front-End</h2>
                         <li>HTML</li>
+                        <li>CSS</li>
                         <li>Javascript</li>
-                        <li>Python</li>
                     </div>
 
                     <div>
-                        <li>Laravel</li>
-                        <li>NextJS</li>
+                        <h2>Theme & Framework</h2>
+                        <li>Bootstrap5</li>
+                        <li>TailwindCSS</li>
+                        <li>Laravel Framework</li>
+                        <li>NextJS Framework</li>
+                    </div>
+
+                    <div>
+                        <h2>Programming Language</h2>
+                        <li>PHP</li>
+                        <li>Python</li>
                         <li>NodeJS</li>
-                        <li>Bootstrap Theme</li>
-                        <li>TailwindCSS Theme</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                    </div>
+
+                    <div>
+                        <h2>Developer's skills</h2>
+                        <li>Git</li>
+                        <li>DevOps</li>
+                        <li>SQL</li>
+                        <li>Data Pipeline</li>
+                        <li>Data Visualization</li>
+                        <li>Machine Learning</li>
                     </div>
                 </div>
             </div>

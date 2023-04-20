@@ -9,6 +9,12 @@ export default function Profile(){
                 <h2 className={styles.title} >My Profile</h2>
                 <hr/>
             </div>
+
+            <div className={styles.introduce}>
+                <p>"  Try hard and give 110 percents to your work!  "</p>
+            </div>
+
+
             <div className={styles.card}>
                 <div className={styles.card_header}></div>
                 <div className={styles.profile}>

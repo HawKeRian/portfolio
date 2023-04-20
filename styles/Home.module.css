@@ -14,6 +14,10 @@
     @apply flex justify-evenly items-center;
 }
 
+.introduce {
+    @apply pt-12 text-center text-xl italic
+}
+
 .card {
     @apply bg-gradient-to-tl from-slate-300;
     @apply rounded-lg m-12 shadow-lg mb-36;
@@ -22,6 +26,11 @@
 .card_header{
     @apply w-full py-4;
     @apply bg-white;
+}
+
+.detail{
+    @apply text-xl;
+    @apply py-2 flex flex-row gap-16;
 }
 
 .profile{
@@ -33,8 +42,23 @@
     @apply flex flex-col  gap-10 p-12;
 }
 
-.detail{
-    @apply text-xl;
-    @apply py-2 flex flex-row gap-16;
+.skill {
+    @apply flex flex-row justify-evenly gap-10 p-12;
+    @apply items-center
 }
 
+.skill h2 {
+    @apply text-lg
+}
+
+.experience {
+    @apply flex flex-col gap-10 p-12;
+}
+
+.leisure {
+    @apply flex flex-col gap-10 p-12;
+}
+
+.contact {
+    @apply flex flex-col gap-10 p-12;
+}
