@@ -10,11 +10,10 @@ export default function Leisure(){
             </div>
             <div className={styles.card}>
                 <div className={styles.leisure}>
-                    <div>
-                        <li>Draw Illustrations</li>
-                        <li>Learn Japanese Language</li>
-                        <li>Listen musics</li>
-                    </div>
+                    <div className={styles.leisure_list}>Draw Anime Illustrations</div>
+                    <div className={styles.leisure_list}>Learn Japanese Language</div>
+                    <div className={styles.leisure_list}>Listen to Musics</div>
+                    <div className={styles.leisure_list}>Write a Fiction</div>
                 </div>
             </div>
         </div>

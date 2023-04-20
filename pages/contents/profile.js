@@ -19,7 +19,7 @@ export default function Profile(){
                 <div className={styles.card_header}></div>
                 <div className={styles.profile}>
                     <div>
-                        <Image src={"/images/rin_huh.jpg"} width={360} height={100} alt="logo" />
+                        <Image src={"/images/rin_huh.jpg"} width={360} height={100} alt="logo" className="border-2 border-slate-300"/>
                     </div>
                     <div>
                         <div className={styles.detail}>

@@ -56,9 +56,13 @@
 }
 
 .leisure {
-    @apply flex flex-col gap-10 p-12;
+    @apply flex flex-row p-16 justify-evenly;
+}
+
+.leisure .leisure_list:hover{
+    @apply text-blue-600 text-2xl;
 }
 
 .contact {
-    @apply flex flex-col gap-10 p-12;
+    @apply flex flex-row p-16 justify-evenly;
 }

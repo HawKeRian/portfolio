@@ -5,7 +5,7 @@
 @layer base{
     body{
         @apply bg-slate-100 text-black;
-        font-family: "Roboto Mono"
+        font-family:cursive;
     }
 
     nav{
@@ -39,9 +39,5 @@
 
     label{
         @apply font-bold
-    }
-
-    img{
-        @apply border-2 border-slate-300
     }
 }
