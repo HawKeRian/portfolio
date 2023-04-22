@@ -17,7 +17,7 @@ export default function Education(){
 
                     <div>
                         <h3 className='text-xl'>2018 - 2022 </h3>
-                        <li>Department of Computer Engineering, Faculty of Engineering at Chaing Mai University</li>
+                        <li>Department of Computer Engineering, Faculty of Engineering at Chiang Mai University</li>
                     </div>
                 </div>
             </div>
